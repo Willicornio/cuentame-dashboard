@@ -29,7 +29,6 @@ export class concursoLibro {
       this.concursoPrimerCriterio = concursoPrimerCriterio;
       this.concursoSegundoCriterio = concursoSegundoCriterio;
       this.concursoTercerCriterio = concursoTercerCriterio;
-;
     }
   }
   

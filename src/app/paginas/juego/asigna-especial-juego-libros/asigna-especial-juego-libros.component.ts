@@ -2,6 +2,8 @@ import { Component, OnInit ,Output, EventEmitter} from '@angular/core';
 import { PeticionesAPIService } from '../../../servicios/peticiones-api.service';
 import { SesionService } from '../../../servicios/sesion.service';
 import { ImagenToBackend } from '../../../clases/clasesParaLibros/imagenGuardada';
+import Swal from 'sweetalert2';
+
 
 
 @Component({
@@ -62,6 +64,10 @@ export class AsignaEspecialJuegoLibrosComponent implements OnInit {
 
 
   putRecuros() {
+
+
+
+    Swal.fire('Elegidos correctamente', ' ', 'success');
 
 
     this.emisorRecursoCargado.emit(this.recursoCargado);

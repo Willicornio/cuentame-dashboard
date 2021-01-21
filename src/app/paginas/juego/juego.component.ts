@@ -754,6 +754,9 @@ export class JuegoComponent implements OnInit {
     this.concursoLibro.peso2 = this.myForm.value.c2;
     this.concursoLibro.peso3 = this.myForm.value.c3;
 
+    Swal.fire('Creado correctamente', ' ', 'success');
+
+
   }
 
   
